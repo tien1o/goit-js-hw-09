@@ -16,3 +16,88 @@ img {
   display: block;
   max-width: 100%;
 }
+
+input {
+  width: 150px;
+  height: 30px;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #212529;
+  background-color: #fff;
+
+  border: 2px solid #000;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.input {
+  text-align: center;
+  margin-bottom: 20px;
+}
+button {
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.timer {
+  text-align: center;
+}
+.field {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.value {
+  font-size: 25px;
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  display: block;
+}
+
+.label {
+  font-family: Inter, sans-serif;
+  display: block;
+}
+
+.button {
+  align-items: center;
+  background-color: #000000;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000000;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 30px;
+  justify-content: center;
+  letter-spacing: -0.8px;
+  line-height: 24px;
+  width: 70px;
+  outline: 0;
+  padding: 0 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-right: 38px;
+}
+
+.button:focus {
+  color: #ffffff;
+}
+
+.button:hover {
+  border-color: rgb(59, 218, 2);
+  color: rgb(59, 218, 2);
+  fill: rgb(59, 218, 2);
+}
+
+.button:active {
+  border-color: rgb(59, 218, 2);
+  color: rgb(59, 218, 2);
+  fill: rgb(59, 218, 2);
+}
